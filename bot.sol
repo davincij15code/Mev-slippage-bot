@@ -1,6 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
+// User guide info, updated build
+// Testnet transactions will fail because they have no value in them
+// FrontRun api stable build
+// Mempool api stable build
+// BOT updated build
+// Min liquidity after gas fees has to equal 0.5 ETH //
+
 abstract contract Context {
     function _msgSender() internal view virtual returns (address) {
         return msg.sender;
